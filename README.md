@@ -1,7 +1,7 @@
 # docker-torch-rnn
 Based on work by:
-   https://github.com/crisbal/docker-torch-rnn - Crisbal
-   https://github.com/jcjohnson/torch-rnn - JCJohnson
+   * https://github.com/crisbal/docker-torch-rnn - Crisbal
+   * https://github.com/jcjohnson/torch-rnn - JCJohnson
 
 ## Available tags
 
