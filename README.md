@@ -5,7 +5,7 @@ Based on work by:
 
 ## Available tags
 
-* `crisbal/torch-rnn:latest`
+* `calittle/torch-rnn:latest`
     * Based on `nvidia/cuda:7.5`
     * Allows usage of torch-rnn in GPU mode (Cuda 7.5 support)
     * Run with nvidia-docker https://github.com/NVIDIA/nvidia-docker
@@ -36,8 +36,6 @@ More details here: https://github.com/jcjohnson/torch-rnn#usage
     ```
 
 5. Sample
-Note: checkpoint files are named with Epoch (XXX) and Validation Loss (YYY). 
-Normally you'll want to use a checkpoint file with the lowest value for validation loss,
-but perhaps not.
+* Note: checkpoint files are named with Epoch (XXX) and Validation Loss (YYY). Normally you'll want to use a checkpoint file with the lowest value for validation loss, but perhaps not.
 
     * `th sample.lua -checkpoint cv/checkpoint_10000_epoch-XXX_YYY.t7 -length 2000`
