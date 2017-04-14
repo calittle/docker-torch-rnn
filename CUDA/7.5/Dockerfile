@@ -1,5 +1,5 @@
 FROM nvidia/cuda:7.5
-MAINTAINER Cristian Baldi "bld.cris.96@gmail.com"
+MAINTAINER CALittle "https://github.com/calittle"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
